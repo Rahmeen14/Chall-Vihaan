@@ -1,0 +1,79 @@
+<% include partials/header%>
+    <div style="width: 300px; " class= "ui main container segment">
+        <div class ="ui huge header">New Transaction</div>
+        <form  class= "ui fluid form" action="/transaction" method="POST">
+            <div class="field">
+                <label>UserName</label>
+            <input type="text" placeholder="userName" name="user[userName]">
+            </div>
+            <div class="field">
+                 <label>Amount of transaction</label>
+                <input type="text" placeholder="amount" name="user[amount]">
+            </div>
+            <div class="field">
+                 <label>Pin Code</label>
+                <input type="text" placeholder="pincode" name="user[pinCode]">
+            </div>
+            <div class="field">
+                 <label>Merchant</label>
+                  <select name="merchant" placeholder="merchant">
+                <option value="Flipkart">Flipkart</option>
+<option value="Goibibo">Goibibo</option>
+<option value="Amazon">Amazon</option>
+<option value="Udemy">Udemy</option>
+<option value="Udacity">Udacity</option>
+<option value="edx">edx</option>
+<option value="Lala">Lala</option>
+<option value="SIRNAS">SIRNAS</option>
+<option value="Buzzana">Buzzana</option>
+<option value="myBazaar">myBazaar</option>
+<option value="FoodPanda">FoodPanda</option>
+<option value="Swiggy">Swiggy</option>
+<option value="Zomato">Zomato</option>
+<option value="yahoo">yahoo</option>
+<option value="Heya">Heya</option>
+<option value="OrderHere">OrderHere</option>
+<option value="OrderThere">OrderThere</option>
+<option value="LadyMacbeth">LadyMacbeth</option>
+<option value="IndianAmerica">IndianAmerica</option>
+<option value="FrostyBites">FrostyBites</option>
+<option value="FireAndIce">FireAndIce</option>
+<option value="RedRoses">RedRoses</option>
+<option value="CraftsVilla">CraftsVilla</option>
+<option value="CraftyTom">CraftyTom</option>
+<option value="UnI">UnI</option>
+<option value="MidnightMemories">MidnightMemories</option>
+<option value="BayBae">BayBae</option>
+<option value="Kickstart">Kickstart</option>
+<option value="Triggers">Triggers</option>
+<option value="Quicker">Quicker</option>
+<option value="Bleaky">Bleaky</option>
+<option value="Obsecurity">Obsecurity</option>
+<option value="DeathEaters">DeathEaters</option>
+<option value="HarryHermione">HarryHermione</option>
+<option value="RahmeenHere">RahmeenHere</option>
+<option value="AkshitaHere">AkshitaHere</option>
+<option value="AnshulHere">AnshulHere</option>
+<option value="SarthakHere">SarthakHere</option>
+<option value="Nanana">Nanana</option>
+<option value="AdvantEdge">AdvantEdge</option>
+<option value="Cherries">Cherries</option>
+<option value="Apples">Apples</option>
+<option value="Custards">Custards</option>
+<option value="Pines">Pines</option>
+<option value="Finally">Finally</option>
+            </select>
+            </div>
+            <div class="field" style="text-align: center"> <input id='submitbutton' class="button ui primary" type="submit" onclick="function2()">
+            </div>
+
+        </form>
+    </div>
+    <center id='displayed'>
+      <% if(data){%>
+        <%= data%>
+        <%}%>
+    </center>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<% include partials/footer%>
