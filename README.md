@@ -40,3 +40,9 @@ This Project was made collectively by
 The Octave code can be found in the code folder in routes.
 
 There is a python file with the name of **initiate.py** that has been used to create bridge between Octave and NodeJS because they cannot interact directly.
+
+## Have a Look:
+![Alt text](/images/Picture1.png?raw=true "App looks like:")
+![Alt text](/images/Picture2.png?raw=true "App looks like:")
+![Alt text](/images/Picture3.png?raw=true "App looks like:")
+![Alt text](/images/Picture4.png?raw=true "App looks like:")
