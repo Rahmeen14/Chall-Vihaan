@@ -12,7 +12,7 @@ Thus our project aims at providing the banks a way to analyse the transactions u
 
 We have considered several factors to analyse like transaction amounts, the location from where transactions are initiated, the type of purchases and services you generally pay for, the time that you generally initiate a transaction. While these little things might seem stupid but they can help a large number of customers from losing out their preciously earned money.
 
-## PREREQUISITES
+## PREREQUISITES :computer:
 
 ```
 Node Js
